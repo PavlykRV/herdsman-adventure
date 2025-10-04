@@ -26,17 +26,16 @@ This project demonstrates basic game mechanics including a controllable hero, an
 ---
 
 ## 📂 Project Structure
-/src
-├── core
-│ └── Config.ts # Game constants
-├── entities
-│ ├── Hero.ts # Hero class
-│ └── Animal.ts # Animal class with patrol/follow behavior
-├── scenes
-│ └── FarmScene.ts # Main game scene
-├── ui
-│ └── CounterUI.ts # DOM counter overlay
-├── main.ts # Game entry point
+
+- src
+  - entities
+    - Player.ts        # Player class
+    - Animal.ts        # Animal class with patrol/follow behavior
+  - scenes
+    - MainScene.ts     # Main game scene
+  - ui
+    - CounterUI.ts     # DOM counter overlay
+  - main.ts            # Game entry point
 
 ---
 
